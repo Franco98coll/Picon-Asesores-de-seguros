@@ -498,11 +498,7 @@ svg{
     justify-content: space-between;
     align-items: center;
 }
-.telefono img{
-    border-radius: 50%;
-    background-color: #564595;
-    padding: 10px;
-}
+
 
 .titulo-contact{
     font-size: 16px;
@@ -510,7 +506,7 @@ svg{
     font-weight: 700;
 }
 .telefono-p{
-    margin-left: -10px;
+    margin-left: 10px;
     margin-top: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -522,11 +518,7 @@ svg{
     display: flex;
     align-items: center;
 }
-.telefono2 img{
-    border-radius: 50%;
-    background-color: #564595;
-    padding: 10px;
-}
+
 .telefono-p2{
     margin-right:200px;
     margin-left: 10px;
@@ -546,7 +538,7 @@ svg{
     margin-bottom: 112px;
 }
 #wsp-p{
-    margin-right: 45px;
+    margin-right: 40px;
 }
 #tel{
     margin-right: 30px;
@@ -979,11 +971,7 @@ svg{
     display: flex;
     align-items: center;
 }
-.telefono img{
-    border-radius: 50%;
-    background-color: #564595;
-    padding: 10px;
-}
+
 .titulo-contact{
     font-size: 16px;
     line-height: 24px;
@@ -1001,11 +989,7 @@ svg{
     display: flex;
     align-items: center;
 }
-.telefono2 img{
-    border-radius: 50%;
-    background-color: #564595;
-    padding: 10px;
-}
+
 .telefono-p2{
     margin-right:30px;
     margin-left: 20px;
