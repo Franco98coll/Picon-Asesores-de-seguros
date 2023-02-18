@@ -68,8 +68,8 @@ nav{
 nav img{
     margin-left: 70px;
     margin-bottom: 29.34px;
-    margin-top: 25px;
-    height: 20.66px;
+    margin-top: 30px;
+    height: 30px;
 }
 
 
@@ -575,13 +575,13 @@ svg{
     width: 124px;
 }
 .data-fiscal-posi{
-    margin-top: 84px;
-    margin-bottom: 52px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     margin-right: 70px;
 }
 .img-ssn{
     width: 200px;
-    height: 132px;
+    height: 30px;
     margin-right: 20px;
 }
 
@@ -948,6 +948,12 @@ svg{
 .accordion{
     margin-bottom: 123px;
 }
+.doacc{
+    font-size: 10px;
+}
+.doacc2{
+    font-size: 12px;
+}
 /* CONTACTO */
 
 .contacto-h3{
@@ -1053,10 +1059,10 @@ svg{
     margin-top: 25px;
 }
 .img-ssn{
-    margin-top: 32px;
-    width: 291px;
-    height: 177px;
-    margin-left: 50px;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    margin-left: 20px;
 }
 
 /* FOOTER */
@@ -1142,10 +1148,16 @@ footer p{
         margin-top: 25px;
     }
     .img-ssn{
-        margin-top: 32px;
-        width: 291px;
-        height: 177px;
+        margin-top: 10px;
+        width: 250px;
+        height: 30px;
         margin-left: 35px;
+    }
+    .doacc{
+        font-size: 8px;
+    }
+    .doacc2{
+        font-size: 10px;
     }
 }
 @media only screen and (max-width:320px){
@@ -1223,15 +1235,16 @@ footer p{
         height: 177px;
     }
     .data-fiscal-posi{
+        
         margin-left: 85px;
         margin-right: 111px;
         margin-top: 25px;
     }
     .img-ssn{
-        margin-top: 32px;
+        margin-top: 10px;
         width: 200px;
-        height: 137px;
-        margin-left: 50px;
+        height: 30px;
+        margin-left: 25px;
     }
     .loremimg2{
         margin-left: 30px;
@@ -1242,6 +1255,12 @@ footer p{
     }
     .loremimg{
         width: 250px;
+    }
+    .doacc{
+        font-size: 7px;
+    }
+    .doacc2{
+        font-size: 9px;
     }
 }
 @media only screen and (max-width:414px){
@@ -1311,4 +1330,12 @@ footer p{
     
 }
 
+}
+@media only screen and (min-width: 1280px){
+    #wsp-p{
+        margin-left: 10px;
+    }
+    #direccion{
+        margin-top: 45px;
+    }
 }
