@@ -602,6 +602,12 @@ footer p{
     html{
         overflow-x: hidden;
     }
+    nav img{
+        margin-left: 70px;
+        margin-bottom: 29.34px;
+        margin-top: 15px;
+        height: 30px;
+    }    
     .div-wsp{
         text-align: center;
         z-index: 100000;
