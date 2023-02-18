@@ -68,8 +68,8 @@ nav{
 nav img{
     margin-left: 70px;
     margin-bottom: 29.34px;
-    margin-top: 30px;
-    height: 30px;
+    margin-top: 33px;
+    height: 40px;
 }
 
 
@@ -581,8 +581,14 @@ svg{
 }
 .img-ssn{
     width: 200px;
+    height: 130px;
+    margin-right: 20px;
+}
+#ssn2{
+    width: 200px;
     height: 30px;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 
@@ -597,6 +603,1007 @@ footer p{
     margin-top: 18px;
     margin-bottom: 22px;
 }
+@media only screen and (max-width: 1280px){
+    #wsp-p{
+        margin-left: 10px;
+    }
+    #direccion{
+        margin-top: 45px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    html{
+        overflow-x: hidden;
+    }
+    .col-{
+        padding: 0;
+    }
+    nav img{
+        margin-left: 70px;
+        margin-bottom: 29.34px;
+        margin-top: 30px;
+        height: 30px;
+    }    
+    .div-wsp{
+        text-align: center;
+        z-index: 100000;
+        position: fixed;
+        top: 410px;
+        right: 40px;
+        transition: 0.5;
+        opacity: 1;
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        background-color: #62CC76;
+    }
+    .div-wsp:hover{
+        border-radius: 50px;
+        background-color: #46E858;
+        
+        
+    }
+    .div-wsp:active{
+        background-color: #47C65F;
+    }
+    .wsp{
+        margin-right: 2px;
+        margin-top: 7px;
+        position: sticky;
+        height: 30px;
+        width: 30px;
+        z-index: 1000000000;
+    }
+    .img-back{
+        text-align: left;
+        background-size: cover;
+        background-image: url(/Img/imagen-header-movile.png);
+    }
+    .img-back h1{
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 90px;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 
+        97%;
+    }
+    
+    .img-back h4{
+        color: black;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: 15px;
+        justify-content: left;
+    }
+    .img-back button{
+        margin-left: 30px;
+        color: #fff;
+        background-color: #564595;
+        padding: 10px 24px 10px 24px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+        border: 1px;
+    }
+    .logoT{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 70px;
+        left: 30px;
+    }
+    .quienes-somos h2{
+        margin-top: 123px;
+        margin-left: 30px;
+        font-weight: 600;
+        line-height: 47.61px;
+    }
+    .quienes-somos h4{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30.48px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .quienes-somos .parraf{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 40px;
+        line-height: 24px;
+    }
+    .card-group img{
+        margin-left: -20px;
+        height: 306px;
+        width: 310px;
+        
+    } 
+    .btn-cards{
+        
+        color: #fff;
+        background-color: #564595;
+        padding: 10px 24px 10px 24px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px;
+    }
+    #div-btn{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    #div-btn2{
+        
+        margin-top: 20px;
+    }
+    .prim{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mid{
+        margin-bottom: 80px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last{
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-group{
+        
+        margin-left: 50;
+        
+        margin-bottom: 200px;
+    }
+    .importante h3{
+        font-size: 25px;
+        line-height: 33.09px;
+        font-weight: 700;
+        margin-top: 120px;
+        margin-left: 30px;
+        margin-bottom: 60px;
+    }
+    .lorem{
+
+        font-size: 20px;
+        line-height: 30.48px;
+        margin-left: 30px;
+        margin-bottom: 23px;
+        margin-right: 30px;
+    }
+    .loremp{
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .loremimg{
+        margin-right: 40px;
+        margin-left: 30px;
+        width: 320px;
+        height: 135px;
+        margin-bottom: 45px;
+    }
+    .lorem2{
+        margin-left: 30px;
+        font-size: 20px;
+        line-height: 30.48px;
+        margin-bottom: 23px;
+        margin-right: 30px;
+    }
+    .loremp2{
+        margin-left: 30px;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-right: 40px;
+    }
+    .loremimg2{
+        margin-left: 30px;
+        width: 320px;
+        height: 135px;
+        margin-bottom: 45px;
+        margin-right: 40px;
+    }
+    #loremimg1{
+        margin-bottom: 45px;
+    }
+    #loremimg21{
+    margin-bottom: 70px;
+    }
+    /* PRODUCTOS */
+
+.titulo-productos{
+    font-weight: 600;
+    line-height: 47.61px;
+    margin-top: 97px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.sub-productos{
+    font-weight: 500;
+    line-height: 30.48px;
+    margin-left: 30px;
+}
+.auto{
+    margin-top: 67px;
+    margin-left: 30px;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    background-color: #564595;
+}
+.auto-h5{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-left: 30px;
+}
+.imgauto{
+    margin-top: 35px;
+}
+.imgauto2{
+    margin-top: 25px;
+}
+svg{
+    color: #564595;
+}
+.items{
+    margin-bottom: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.escpacio-p{
+    margin-bottom: 67px;
+}
+.auto2{
+    margin-left: 30px;
+    margin-top: 67px;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    background-color: #564595;
+}
+.items2{
+    margin-bottom: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.auto-h5-2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-left: 30px;
+}
+#ultimo-item{
+    margin-bottom: 100px;
+}
+.cuadrito{
+    border-radius: 5px;
+    box-shadow: rgb(201, 201, 201) 0px 0px 10px 0.25px;
+    position: absolute;
+    top: 56.5%;
+    left: 53%;
+    right: auto;
+    width: 345px;
+    height: 330px;
+    background-color: #f3f3f3;
+}
+.cuadrito h5{
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 29px;
+    margin-left: 24px;
+    font-size: 20px;
+    line-height: 24.38px;
+
+}
+.items3{
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.cuadrito #tarjeta-credito{
+    position: relative;
+    top: 0px;
+    left: 25px;
+}
+.espacio{
+    margin-bottom: 199px;
+}
+
+/* ATENCION AL CLIENTE */
+
+.atencion-al-cliente{
+    background-color: #f6f6f6;
+}
+.AAC-h2{
+    font-weight: 600;
+    line-height: 47.61px;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+.AAC-p{
+    line-height: 19.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.atencion-al-cliente .col-8{
+    margin: 0px;
+    margin-left: -80px;
+    padding: 0px;
+}
+.atencion-al-cliente .col-3{
+    margin: 0px;
+    padding: 0px;
+}
+.accordion-button::after{
+    color: #564595;
+}
+.accordion{
+    margin-bottom: 123px;
+}
+.doacc{
+    font-size: 10px;
+}
+.doacc2{
+    font-size: 12px;
+}
+/* CONTACTO */
+
+.contacto-h3{
+    margin-bottom: 30px;
+    margin-top: 117px;
+    margin-left: 30px;
+    font-size: 31.25px;
+    font-weight: 600;
+    line-height: 38.09px;
+}
+.contacto-p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.telefono{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-contact{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.telefono-p{
+    margin-right: 40px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.telefono2{
+    margin-top: -30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.telefono-p2{
+    margin-right:30px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.titulo-contact2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+#direccion{
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 112px;
+}
+#wsp-p{
+    margin-right: 135px;
+}
+#tel{
+    margin-right: 120px;
+}
+
+/* PREFOOTER */
+
+#prefooter{
+    display: flex;
+    align-items: center;
+}
+.prefooter{
+    margin-top: -10px;
+    background-color: #564595;
+    height: 304px;
+}
+.prefooter-p{
+    color: #fff;
+    margin-left: 60px;
+    
+    line-height: 19.5px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.logo-footer{
+    margin-left: 68px;
+    margin-top: 0px;
+    width: 300px;
+    height: 44px;
+}
+.data-fiscal{
+    height: 168px;
+    width: 124px;
+}
+.data-fiscal-posi{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+}
+.img-ssn{ 
+    margin-left: 10px;
+    margin-top: -20px;
+    width: 200px;
+    height: 130px;
+    margin-right: 20px;
+}
+#ssn2{
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    color: #fff;
+    background-color: #382C65;
+    text-align: center;
+}
+footer p{
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+}
+@media only screen and (max-width: 768px){
+    html{
+        overflow-x: hidden;
+    }
+    
+    nav img{
+        margin-left: 70px;
+        margin-bottom: 29.34px;
+        margin-top: 15px;
+        height: 30px;
+    }    
+    .div-wsp{
+        text-align: center;
+        z-index: 100000;
+        position: fixed;
+        top: 410px;
+        right: 20px;
+        transition: 0.5;
+        opacity: 1;
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+        background-color: #62CC76;
+    }
+    .div-wsp:hover{
+        border-radius: 50px;
+        background-color: #46E858;
+        
+        
+    }
+    .div-wsp:active{
+        background-color: #47C65F;
+    }
+    .wsp{
+        margin-right: 2spx;
+        margin-top: 7px;
+        position: sticky;
+        height: 30px;
+        width: 30px;
+        z-index: 1000000000;
+    }
+    .img-back{
+        
+        text-align: left;
+        background-size: cover;
+        background-image: url(/Img/imagen-header-movile.png);
+    }
+    .img-back h1{
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 90px;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 
+        97%;
+    }
+    
+    .img-back h4{
+        color: black;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 30px;
+        margin-top: 15px;
+        justify-content: left;
+    }
+    .img-back button{
+        margin-left: 30px;
+        color: #fff;
+        background-color: #564595;
+        padding: 10px 24px 10px 24px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+        border: 1px;
+    }
+    .logoT{
+        width: 50px;
+        height: 30px;
+        position: relative;
+        top: 70px;
+        left: 30px;
+    }
+    .quienes-somos h2{
+        margin-top: 123px;
+        margin-left: 30px;
+        font-weight: 600;
+        line-height: 47.61px;
+    }
+    .quienes-somos h4{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30.48px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+    .quienes-somos .parraf{
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 40px;
+        line-height: 24px;
+    }
+    .card-group img{
+        margin-left: -20px;
+        height: 306px;
+        width: 310px;
+        
+    } 
+    .btn-cards{
+        
+        color: #fff;
+        background-color: #564595;
+        padding: 10px 24px 10px 24px;
+        border-radius: 10px;
+        text-align: center;
+        border: 1px;
+    }
+    #div-btn{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    #div-btn2{
+        
+        margin-top: 20px;
+    }
+    .prim{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mid{
+        margin-bottom: 80px;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .last{
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-group{
+        
+        margin-left: 50;
+        
+        margin-bottom: 200px;
+    }
+    .importante h3{
+        font-size: 25px;
+        line-height: 33.09px;
+        font-weight: 700;
+        margin-top: 120px;
+        margin-left: 30px;
+        margin-bottom: 60px;
+    }
+    .lorem{
+
+        font-size: 20px;
+        line-height: 30.48px;
+        margin-left: 30px;
+        margin-bottom: 23px;
+        margin-right: 30px;
+    }
+    .loremp{
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .loremimg{
+        margin-right: 40px;
+        margin-left: 30px;
+        width: 320px;
+        height: 135px;
+        margin-bottom: 45px;
+    }
+    .lorem2{
+        margin-left: 30px;
+        font-size: 20px;
+        line-height: 30.48px;
+        margin-bottom: 23px;
+        margin-right: 30px;
+    }
+    .loremp2{
+        margin-left: 30px;
+        font-weight: 400;
+        line-height: 24px;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-right: 40px;
+    }
+    .loremimg2{
+        margin-left: 30px;
+        width: 320px;
+        height: 135px;
+        margin-bottom: 45px;
+        margin-right: 40px;
+    }
+    #loremimg1{
+        margin-bottom: 45px;
+    }
+    #loremimg21{
+    margin-bottom: 70px;
+    }
+    /* PRODUCTOS */
+
+.titulo-productos{
+    font-weight: 600;
+    line-height: 47.61px;
+    margin-top: 97px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.sub-productos{
+    font-weight: 500;
+    line-height: 30.48px;
+    margin-left: 30px;
+}
+.auto{
+    margin-top: 67px;
+    margin-left: 30px;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    background-color: #564595;
+}
+.auto-h5{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-left: 30px;
+    
+}
+.imgauto{
+    margin-top: 35px;
+}
+.imgauto2{
+    margin-top: 25px;
+}
+svg{
+    color: #564595;
+}
+.items{
+    margin-bottom: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.escpacio-p{
+    margin-bottom: 67px;
+}
+.auto2{
+    margin-left: 30px;
+    margin-top: 67px;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+    background-color: #564595;
+}
+.items2{
+    margin-bottom: 1px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.auto-h5-2{
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    margin-left: 30px;
+}
+#ultimo-item{
+    margin-bottom: 200px;
+}
+.cuadrito{
+    border-radius: 5px;
+    box-shadow: rgb(201, 201, 201) 0px 0px 10px 0.25px;
+    position: absolute;
+    top: 59.2%;
+    left: 50%;
+    right: auto;
+    width: 345px;
+    height: 330px;
+    background-color: #f3f3f3;
+}
+.cuadrito h5{
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 29px;
+    margin-left: 24px;
+    font-size: 20px;
+    line-height: 24.38px;
+
+}
+.items3{
+    margin-right: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.cuadrito #tarjeta-credito{
+    position: relative;
+    top: 0px;
+    left: 25px;
+}
+.espacio{
+    margin-bottom: 199px;
+}
+
+/* ATENCION AL CLIENTE */
+
+.atencion-al-cliente{
+    background-color: #f6f6f6;
+}
+.AAC-h2{
+    font-weight: 600;
+    line-height: 47.61px;
+    margin-top: 75px;
+    margin-left: 30px;
+}
+.AAC-p{
+    line-height: 19.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.atencion-al-cliente .col-8{
+    margin: 0px;
+    margin-left: -60px;
+    padding: 0px;
+}
+.atencion-al-cliente .col-3{
+    margin: 0px;
+    padding: 0px;
+}
+.accordion-button::after{
+    color: #564595;
+}
+.accordion{
+    margin-bottom: 123px;
+}
+.doacc{
+    font-size: 10px;
+}
+.doacc2{
+    font-size: 12px;
+}
+/* CONTACTO */
+
+.contacto-h3{
+    margin-bottom: 30px;
+    margin-top: 117px;
+    margin-left: 30px;
+    font-size: 31.25px;
+    font-weight: 600;
+    line-height: 38.09px;
+}
+.contacto-p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.telefono{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-contact{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.telefono-p{
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.telefono2{
+    margin-top: -30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.telefono-p2{
+    margin-right:30px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.titulo-contact2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+#direccion{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 112px;
+}
+#wsp-p{
+    margin-right: 15px;
+}
+#tel{
+    margin-right: 5px;
+}
+
+/* PREFOOTER */
+
+#prefooter{
+    display: flex;
+    align-items: center;
+}
+.prefooter{
+    margin-top: -10px;
+    background-color: #564595;
+    height: 304px;
+}
+.prefooter-p{
+    color: #fff;
+    margin-left: 20px;
+    
+    line-height: 19.5px;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+.logo-footer{
+    margin-left: 18px;
+    margin-top: 0px;
+    width: 200px;
+    height: 34px;
+}
+.data-fiscal{
+    height: 168px;
+    width: 124px;
+}
+.data-fiscal-posi{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: -20px;
+}
+.img-ssn{ 
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 200px;
+    height: 130px;
+    margin-right: 20px;
+}
+#ssn2{
+    margin-left: 0px;
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+
+/* FOOTER */
+
+footer{
+    color: #fff;
+    background-color: #382C65;
+    text-align: center;
+}
+footer p{
+    margin-top: 18px;
+    margin-bottom: 22px;
+}
+}
+
 
 @media only screen and (max-width:425px){
     html{
@@ -1068,9 +2075,16 @@ svg{
 .img-ssn{
     margin-top: 10px;
     width: 250px;
+    height: 150px;
+    margin-left: 20px;
+}
+#ssn2{
+    margin-top: 5px;
+    width: 250px;
     height: 30px;
     margin-left: 20px;
 }
+
 
 /* FOOTER */
 
@@ -1083,6 +2097,74 @@ footer p{
     margin-top: 18px;
     margin-bottom: 22px;
 }
+}
+@media only screen and (max-width:414px){
+    /* CONTACTO */
+
+.contacto-h3{
+    margin-bottom: 30px;
+    margin-top: 117px;
+    margin-left: 30px;
+    font-size: 31.25px;
+    font-weight: 600;
+    line-height: 38.09px;
+}
+.contacto-p{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.telefono{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.titulo-contact{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.telefono-p{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.telefono2{
+    margin-top: -30px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.telefono-p2{
+    margin-right:30px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+}
+.titulo-contact2{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+#direccion{
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 112px;
+}
+#wsp-p{
+    margin-left: 20px;
+    
+}
+
 }
 @media only screen and (max-width:375px){
     html{
@@ -1166,13 +2248,26 @@ footer p{
     .doacc2{
         font-size: 10px;
     }
+    .img-ssn{
+        margin-top: 10px;
+        width: 250px;
+        height: 150px;
+        margin-left: 20px;
+    }
+    #ssn2{
+        margin-top: 5px;
+        width: 250px;
+        height: 30px;
+        margin-left: 20px;
+    }
+    
 }
 @media only screen and (max-width:320px){
     nav img{
-        margin-left: 30px;
+        margin-left: 50px;
         margin-bottom: 29.34px;
-        margin-top: 25px;
-        height: 20.66px;
+        margin-top: 20px;
+        height: 25.66px;
     }
     .sub-productos{
         
@@ -1269,80 +2364,17 @@ footer p{
     .doacc2{
         font-size: 9px;
     }
-}
-@media only screen and (max-width:414px){
-    /* CONTACTO */
-
-.contacto-h3{
-    margin-bottom: 30px;
-    margin-top: 117px;
-    margin-left: 30px;
-    font-size: 31.25px;
-    font-weight: 600;
-    line-height: 38.09px;
-}
-.contacto-p{
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 76px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-}
-.telefono{
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.titulo-contact{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-}
-.telefono-p{
-    margin-left: 20px;
-    margin-top: 20px;
-    font-weight: 400;
-    line-height: 24px;
-    font-size: 16px;
-}
-.telefono2{
-    margin-top: -30px;
-    margin-left: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.telefono-p2{
-    margin-right:30px;
-    margin-left: 20px;
-    margin-top: 50px;
-    font-weight: 400;
-    line-height: 24px;
-    font-size: 16px;
-}
-.titulo-contact2{
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 700;
-}
-#direccion{
-    margin-top: 5px;
-    margin-left: 30px;
-    margin-bottom: 112px;
-}
-#wsp-p{
-    margin-left: 20px;
+    .img-ssn{
+        margin-top: 10px;
+        width: 250px;
+        height: 150px;
+        margin-left: 5px;
+    }
+    #ssn2{
+        margin-top: 5px;
+        width: 250px;
+        height: 30px;
+        margin-left: 5px;
+    }
     
-}
-
-}
-@media only screen and (min-width: 1280px){
-    #wsp-p{
-        margin-left: 10px;
-    }
-    #direccion{
-        margin-top: 45px;
-    }
 }
