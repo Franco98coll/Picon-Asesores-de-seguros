@@ -590,6 +590,9 @@ svg{
     margin-right: 20px;
     margin-top: 5px;
 }
+#link_blanco{
+    color: #fff;
+}
 
 
 /* FOOTER */
@@ -1078,17 +1081,17 @@ svg{
 .data-fiscal-posi{
     margin-top: 70px;
     margin-bottom: 70px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 .img-ssn{ 
-    margin-left: 10px;
-    margin-top: -20px;
+    margin-left: 0px;
+    margin-top: 30px;
     width: 200px;
     height: 130px;
     margin-right: 20px;
 }
 #ssn2{
-    margin-left: 10px;
+    margin-left: 0px;
     width: 200px;
     height: 30px;
     margin-right: 20px;
