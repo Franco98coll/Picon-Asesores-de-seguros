@@ -79,7 +79,7 @@ nav img{
 .img-back{
     text-align: left;
     background-size: cover;
-    background-image: url(/Img/imagen-header.png);
+    background-image: url(../Img/imagen-header.png);
     
 }
 .img-back h1{
